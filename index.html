@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OWASP Top 10 Vulnerabilities</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"></path>
+                    <line x1="12" y1="9" x2="12" y2="13"></line>
+                    <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                </svg>
+                <h1>OWASP Top 10 Vulnerabilities</h1>
+            </div>
+        </div>
+    </header>
+
+    <section class="intro">
+        <div class="container">
+            <div class="intro-content">
+                <h2>What is OWASP?</h2>
+                <p>
+                    The Open Web Application Security Project (OWASP) is a nonprofit foundation dedicated to improving software security. 
+                    Through community-led open-source projects, hundreds of local chapters worldwide, tens of thousands of members, and leading educational and training conferences, 
+                    the OWASP Foundation is the source for developers and technologists to secure the web.
+                </p>
+                <h3>The OWASP Top 10</h3>
+                <p>
+                    The OWASP Top 10 is a standard awareness document for developers and web application security. 
+                    It represents a broad consensus about the most critical security risks to web applications. 
+                    Companies should adopt this document and start the process of ensuring that their web applications minimize these risks.
+                </p>
+                <div class="note">
+                    <p>
+                        Note: The OWASP Top 10 is a living document that evolves with the security landscape. 
+                        The current list (2021 edition) may differ from future versions as new threats emerge and security practices advance. 
+                        Always refer to the <a href="https://owasp.org/www-project-top-ten/" target="_blank" rel="noopener noreferrer">official OWASP website</a> for the most up-to-date information.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="video-section">
+        <div class="container">
+            <div class="video-container">
+                <iframe 
+                    src="owaspvideo.mp4" 
+                    title="OWASP Top 10 Security Vulnerabilities" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <main class="container">
+        <h2 class="section-title">Explore the Top 10 Web Application Security Risks</h2>
+        <div class="vulnerabilities-grid" id="vulnerabilitiesGrid"></div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; Azeeza Farhana Shaik</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
